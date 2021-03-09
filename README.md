@@ -17,7 +17,9 @@ To start the app:
     export SECRET_KEY=<some_secret_key>
     
 7. Run create_db:
+
     chmod a+x ./create_db.sh
+    
     ./create_db.sh
 8. flask run
 9. Open localhost:5000 in browser
