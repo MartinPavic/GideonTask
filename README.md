@@ -7,6 +7,7 @@ To start the app:
 4. source venv/bin/activate
 5. pip install -r requirements
 6. Set up environment variables:
+    
     export FLASK_APP=run.py
     
     export FLASK_ENV=development
