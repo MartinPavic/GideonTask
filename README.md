@@ -8,9 +8,13 @@ To start the app:
 5. pip install -r requirements
 6. Set up environment variables:
     export FLASK_APP=run.py
+    
     export FLASK_ENV=development
+    
     export DATABASE_URL=postrgres://<username>:<password>@localhost:5432/robot_management
+    
     export SECRET_KEY=<some_secret_key>
+    
 7. Run create_db:
     chmod a+x ./create_db.sh
     ./create_db.sh
